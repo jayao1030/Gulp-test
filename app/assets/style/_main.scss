@@ -1,0 +1,95 @@
+// header
+.header {
+  height: 958px;
+  background: url(../images/banner.png) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-content {
+    color: #fff;
+    p {
+      max-width: 283px;
+      margin-left: 16.5px;
+    }
+  }
+  &-link img {
+    margin: 0 8px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+// about
+.about {
+  max-width: 412px;
+ 
+    .about-skills {
+      border-top: 1px solid #000;
+      padding-top: 28px;
+      margin:0 14px;
+      max-width: 384px;
+      text-align: center;
+      
+      h3::before {
+        content: '';
+        display: inline-block;
+        border-radius: 100%;
+        width: 22px;
+        height: 22px;
+        margin-right: 16px;
+        background: #891818;
+      }
+    }
+}
+
+// brand
+.brand {
+  background: #000;
+  color: #fff;
+  padding-top: 56px;
+  padding-bottom: 160px;
+
+  &-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+// works
+.works {
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+// footer
+.footer {
+  background: #000;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    width: 315px;
+
+    a {
+      display: block;
+      color: #fff;
+      font: italic normal 500 24px/36px Roboto;
+      text-decoration: none;
+    }
+  }
+}
